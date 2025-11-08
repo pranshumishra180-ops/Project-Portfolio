@@ -5,9 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "storybook": "storybook dev -p 6006",
+    "chromatic": "npx chromatic --project-token=chpt_715b4903193cceb"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-docs": "^10.0.6",
+    "@storybook/html-vite": "^10.0.6",
+    "chromatic": "^13.3.3",
+    "storybook": "^10.0.6"
+  }
 }
