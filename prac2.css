@@ -1,0 +1,45 @@
+*{
+ 
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+    color: #fff;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+  position: absolute;
+}
+body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  position: absolute;
+  z-index:12;
+}
+
+
+button{
+    padding: 10PX 20px;
+    font-weight: 600px;
+    background-color:crimson;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+
+ }
+ 
+button:active{
+
+    scale: 0.95;
+} 
